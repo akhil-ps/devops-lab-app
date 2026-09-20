@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Replace with your actual Docker Hub username:
-        DOCKER_HUB_USER = 'YOUR_DOCKERHUB_USERNAME'
+        DOCKER_HUB_USER = 'akhilps'
         IMAGE_NAME      = "${DOCKER_HUB_USER}/devops-lab-app"
         IMAGE_TAG       = "${BUILD_NUMBER}"
     }
